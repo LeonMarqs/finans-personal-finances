@@ -1,0 +1,48 @@
+@media (max-width: 575.98px) { 
+    #main-nav button {
+        
+        margin-top: 10px;
+    }
+ }
+
+ @media (min-width: 768px) { 
+    #main-nav button {
+        margin-left: 1.5rem;
+    }
+ }
+
+body {
+    background: rgb(252, 252, 252)
+}
+
+#home {
+    background: #ffc107;
+    color: #fff;
+}
+
+h1.display-4 {
+    font-weight: bold;
+}
+
+li.nav-item {
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    -ms-transition: background 0.2s;
+    -o-transition: background 0.2s;
+}
+
+li.nav-item:hover {
+    border-radius: 4px;
+    background: #ffffff;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.box {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
