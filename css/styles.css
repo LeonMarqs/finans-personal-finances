@@ -3,7 +3,9 @@
         
         margin-top: 10px;
     }
+
  }
+
 
  @media (min-width: 768px) { 
     #main-nav button {
@@ -12,11 +14,11 @@
  }
 
 body {
-    background: rgb(252, 252, 252)
+    background: #f0f8ff;
 }
 
 #home {
-    background: #ffc107;
+    background: #343a40;
     color: #fff;
 }
 
@@ -33,16 +35,24 @@ li.nav-item {
 }
 
 li.nav-item:hover {
-    border-radius: 4px;
-    background: #ffffff;
+    background: #464f57;
 
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
+    border-radius: 4px;
+}
+
+footer .nav-item:hover {
+    background: #c8cfd6;
 }
 
 .box {
     padding: 60px 0;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px dotted #6d6d6d;
+}
+
+button .navbar-toggler {
+    outline: white;
 }

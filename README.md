@@ -2,6 +2,13 @@
 A website example (front-end) responsive 
 
 ## Screenshot
-<img src="https://imgur.com/8Ek6H2m.jpg" width="65%" />
+* PC
+
+<img src="https://imgur.com/oEQG3An.jpg" width="70%" />
+
+* Smartphone
+
+<img src="https://imgur.com/PhxBFgH.jpg" width="55%" />
+
 
 
